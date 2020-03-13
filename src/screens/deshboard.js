@@ -27,7 +27,7 @@ class Deshboard extends Component {
                                 style={styles.imageicon}
                             />
                             <Text style={styles.cardText}>Pending</Text>
-                            <Text style={[styles.cardText, { fontSize: 10 }]}>12 Tasks</Text>
+                            <Text style={[styles.cardText, { fontSize: 10 }]}>12 Notes</Text>
 
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.cards}>
@@ -36,7 +36,7 @@ class Deshboard extends Component {
                                 style={styles.imageicon}
                             />
                             <Text style={styles.cardText}>Completed</Text>
-                            <Text style={[styles.cardText, { fontSize: 10 }]}>12 Tasks</Text>
+                            <Text style={[styles.cardText, { fontSize: 10 }]}>12 Notes</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={[styles.cards, { backgroundColor: '#743fb5' }]}>
                             <Image
@@ -44,7 +44,7 @@ class Deshboard extends Component {
                                 style={styles.imageicon}
                             />
                             <Text style={styles.cardText}>All Notes</Text>
-                            <Text style={[styles.cardText, { fontSize: 10 }]}>24 Tasks</Text>
+                            <Text style={[styles.cardText, { fontSize: 10 }]}>24 Notes</Text>
 
                         </TouchableOpacity>
                     </View>
@@ -52,7 +52,7 @@ class Deshboard extends Component {
                         fontWeight: 'bold',
                         fontSize: 20,
                         margin: 10
-                    }}>Task Progress</Text>
+                    }}>Notes Progress</Text>
                 </View>
                 <View style={{
                     flex: 1,
@@ -73,7 +73,7 @@ class Deshboard extends Component {
                             >24</Text>
                             <Text
                                 style={{ color: 'gray', marginTop: 10 }}
-                            >TOTAL TASKS</Text>
+                            >TOTAL NOTES</Text>
 
                         </View>
 
@@ -93,7 +93,7 @@ class Deshboard extends Component {
                             >12</Text>
                             <Text
                                 style={{ color: 'gray', marginTop: 10 }}
-                            >COMPLETED TASKS</Text>
+                            >COMPLETED NOTES</Text>
 
                         </View>
                     </View>
@@ -112,7 +112,7 @@ class Deshboard extends Component {
                                 marginLeft: 20,
                                 marginBottom: 5
                             }}
-                        >Pandding Tasks</Text>
+                        >Pandding Notes</Text>
                         <View style={styles.progressBorder}>
                             <View style={[styles.progressBar, { backgroundColor: '#45a0e6', width: "60%" }]}>
                             </View>
@@ -129,7 +129,7 @@ class Deshboard extends Component {
                                 marginTop: 30,
                                 marginBottom: 5
                             }}
-                        >Completed Tasks</Text>
+                        >Completed Notes</Text>
                         <View style={styles.progressBorder}>
                             <View style={[styles.progressBar, , { backgroundColor: '#b52c09', width: "80%" }]}>
                             </View>
@@ -145,7 +145,7 @@ class Deshboard extends Component {
                                 marginTop: 30,
                                 marginBottom: 5
                             }}
-                        >All Tasks</Text>
+                        >All Notes</Text>
                         <View style={styles.progressBorder}>
                             <View style={[styles.progressBar, { backgroundColor: '#743fb5', width: '90%' }]}>
                             </View>
