@@ -50,7 +50,7 @@ const CounterButton = props => {
                 if (props.onPress)
                     props.onPress()
             }}
-            style={{ borderWidth: 2, padding: 10 }} >
+            style={{ borderWidth: 2, padding: 10, margin: 10 }} >
             <Text>{props.title}</Text>
         </TouchableOpacity>
     )

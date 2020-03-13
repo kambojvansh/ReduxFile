@@ -8,6 +8,7 @@ import App from './src/redux/App'
 import { Provider } from 'react-redux';
 
 import configureStore from './src/redux/store/configureStore';
+import deshboard from './src/screens/deshboard'
 
 const store = configureStore()
 
@@ -17,4 +18,5 @@ const RNRedux = () => (
     </Provider>
 )
 
-AppRegistry.registerComponent(appName, () => RNRedux);
+// AppRegistry.registerComponent(appName, () => RNRedux);
+AppRegistry.registerComponent(appName, () => deshboard);
